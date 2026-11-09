@@ -32,9 +32,9 @@ _LOGGER: logging.Logger = logging.getLogger(__package__)
 
 
 def _format_firmware_version(firmware: object) -> str | None:
-
-
-    """Return a firmware version compatible with the device registry."""    return None if firmware is None else str(firmware)
+    """Return a firmware version compatible with the device registry."""
+    
+    return None if firmware is None else str(firmware)
 
 
 class VaillantData:
